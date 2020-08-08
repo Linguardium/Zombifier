@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "zombifier",
+  "version": "${version}",
+  "name": "Zombifier",
+  "description": "Makes villagers and pigs zombies if killed by zombie",
+  "authors": [
+    "Linguardium"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/zombifier/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [ ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "zombifier.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0"
+  }
+}
