@@ -1,8 +1,9 @@
-{
+  {
   "required": true,
   "package": "mod.linguardium.zombifier.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "LivingEntityMixin",
     "ZombieEntityMixin"
   ],
   "client": [],
